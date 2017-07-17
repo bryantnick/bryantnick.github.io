@@ -14,10 +14,11 @@ library(blogdown)
 # order of operations is thus:
 # 1. change files and save changes (i.e., index file, toml file, or adding an image to the img folder)
 # 2. serve_site() to see those changes in the viewer pane or browser of R
-# 3. press stop to stop the serve_site() function
-# 4. build site to write the files from blog to ntbryant.github.io
-# 5. commit changes in ntbryant.github.io to github and sync repository
-# 6. wait up to a minute for the changes to take effect
+# 3. go to http://localhost:4321/ while serve_site() is running to see the site in a browser
+# 4. press stop to stop the serve_site() function
+# 5. build site to write the files from blog to ntbryant.github.io
+# 6. commit changes in ntbryant.github.io to github and sync repository
+# 7. wait up to a minute for the changes to take effect
 
 setwd("D:/Google Drive/GitHub/blog")
 serve_site()
