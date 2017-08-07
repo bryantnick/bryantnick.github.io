@@ -20,10 +20,12 @@ library(blogdown)
 # 6. commit changes in ntbryant.github.io to github and sync repository
 # 7. wait up to a minute for the changes to take effect
 
+library(blogdown)
+
 setwd("D:/Google Drive/GitHub/blog")
 serve_site()
 build_site()
 
 
-# Create a new post
-new_post(title = 'your-post.Rmd')
+# # Create a new post
+# new_post(title = 'your-post.Rmd')
