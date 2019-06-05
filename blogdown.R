@@ -11,6 +11,8 @@ library(blogdown)
 
 # I saved images that are called in blog/static/img
 
+# icons are from font awesome
+
 # order of operations is thus:
 # 1. change files and save changes (i.e., index file, toml file, or adding an image to the img folder)
 # 2. serve_site() to see those changes in the viewer pane or browser of R
